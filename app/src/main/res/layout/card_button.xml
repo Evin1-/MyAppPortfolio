@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:layout_margin="3dp">
     <LinearLayout
-        android:padding="3dp"
+        android:padding="10dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -30,24 +30,32 @@
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/card_button_name_txt"
-            android:textSize="15sp"
-            android:text="@string/project_name_movies"
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/card_button_name_txt"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:text="@string/project_name_movies"
+                android:layout_gravity="start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
 
-        <TextView
-            android:id="@+id/card_button_more_txt"
-            android:textAllCaps="true"
-            android:textStyle="bold"
-            android:textSize="10sp"
-            android:textColor="@color/colorAccent"
-            android:text="@string/option_view_more"
-            android:layout_gravity="end"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/card_button_more_txt"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/colorAccent"
+                android:text="@string/option_view_more"
+                android:gravity="end"
+                android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
