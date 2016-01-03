@@ -25,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <include layout="@layout/card_button" android:id="@+id/card_popular"/>
+            <include layout="@layout/card_button" android:id="@+id/card_movies"/>
             <include layout="@layout/card_button" android:id="@+id/card_football"/>
             <include layout="@layout/card_button" android:id="@+id/card_library"/>
             <include layout="@layout/card_button" android:id="@+id/card_build"/>
