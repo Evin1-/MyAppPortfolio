@@ -17,4 +17,22 @@
         android:text="@string/main_subtitle"
         android:textStyle="bold"/>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/card_button" android:id="@+id/card_popular"/>
+            <include layout="@layout/card_button" android:id="@+id/card_football"/>
+            <include layout="@layout/card_button" android:id="@+id/card_library"/>
+            <include layout="@layout/card_button" android:id="@+id/card_build"/>
+            <include layout="@layout/card_button" android:id="@+id/card_reader"/>
+            <include layout="@layout/card_button" android:id="@+id/card_capstone"/>
+
+        </LinearLayout>
+    </ScrollView>
+
 </LinearLayout>
