@@ -17,9 +17,9 @@
             <ImageView
                 android:id="@+id/card_button_status_img"
                 android:src="@drawable/autorenew"
-                android:layout_gravity="bottom"
-                android:layout_width="8dp"
-                android:layout_height="8dp" />
+                android:layout_gravity="center"
+                android:layout_width="9dp"
+                android:layout_height="9dp" />
 
             <TextView
                 android:id="@+id/card_button_status_txt"
