@@ -10,6 +10,18 @@
     android:orientation="vertical"
     tools:context="mx.evin.udacity.myappportfolio.MainActivity">
 
+    <TextView android:text="HelloFriend" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/informationTextView"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/registrationProgressBar" />
+
+
+
     <TextView
         android:gravity="center"
         android:layout_width="match_parent"
